@@ -1,34 +1,74 @@
-body{
-    background-color: black;
+:root {
+  --color-bg: #0c0c0c;        /* Fondo oscuro */
+  --color-text: #ffffff;      /* Texto blanco */
+  --color-accent: #e6c62f;    /* Amarillo dorado */
+  --color-hover: #f1d94b;     /* Amarillo más claro en hover */
 }
 
-.logo{
-height: 50px;
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--color-bg);
 }
 
-
-header{
-    padding: 20px;
-    margin: 10px;
-    border-bottom: 2px solid #DCD327;
-    font-family: fantasy;
-    
-    
+header {
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-accent);
 }
-a{
-    text-decoration: none;
-    color: white;
-    margin: 20px;
-    
-}
-.boton{
- display: block;   
- background-color: #DCD327;
- width: 40px;
- height: 30px;
- text-align: center;
- padding: 10px 20px;
- position: relative;
 
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo .nombre {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--color-accent);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: var(--color-accent);
+}
+
+.boton {
+  background-color: var(--color-accent);
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: var(--color-hover);
 }
