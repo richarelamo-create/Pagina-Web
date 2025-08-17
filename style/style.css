@@ -1,3 +1,15 @@
 body{
     background-color: black;
 }
+
+.logo{
+height: 50px;
+}
+
+.hr1{
+    background-color: #DCD327;
+}
+
+header{
+    margin: 50px;
+}
