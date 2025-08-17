@@ -1,8 +1,8 @@
 :root {
-  --color-bg: #0c0c0c;        /* Fondo oscuro */
-  --color-text: #ffffff;      /* Texto blanco */
-  --color-accent: #e6c62f;    /* Amarillo dorado */
-  --color-hover: #f1d94b;     /* Amarillo más claro en hover */
+  --color-bg: #0c0c0c;        
+  --color-text: #ffffff;     
+  --color-accent: #e6c62f;   
+  --color-hover: #f1d94b;    
 }
 
 body {
