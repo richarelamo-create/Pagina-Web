@@ -4,6 +4,14 @@
   --color-primario: #e6c62f;   
   --color-hover: #f1d94b;    
 }
+h1{
+  color: var(--color-text);
+  
+}
+h2{
+  color: var(--color-text);
+  
+}
 
 body {
   margin: 0;
@@ -43,7 +51,7 @@ header {
 }
 
 .logo img {
-  height: 40px;
+  height: 50px;
 }
 
 .logo .nombre {
@@ -74,6 +82,7 @@ header {
 }
 
 .boton {
+  margin-left: 25%;
   background-color: var(--color-primario);
   color: black;
   padding: 10px 20px;
